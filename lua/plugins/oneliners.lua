@@ -1,11 +1,20 @@
 return {
+    
+
     {
-	'brenoprata10/nvim-highlight-colors',
-	config = function()
+	    'brenoprata10/nvim-highlight-colors',
+	    config = function()
 	    require('nvim-highlight-colors').setup({})
-	end
+	end,
     },
+
+
     {
-	'tpope/vim-fugitive',
+	    'tpope/vim-fugitive',
     },
+
+    {
+        'williamboman/mason.nvim', 
+
+    }
 }
