@@ -5,6 +5,8 @@ vim.keymap.set("n", "<leader>cd", vim.cmd.Ex)
 vim.keymap.set("n", "<leader>u", vim.cmd.UndotreeToggle)
 vim.keymap.set("n", "<leader>gs", vim.cmd.Git)
 
+vim.keymap.set("n", "<leader>t", vim.cmd.term)
+
 vim.keymap.set("n", "<leader>cc", vim.cmd.nohlsearch)
 
 ---Move selected up and down
